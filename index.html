@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="css/miles.css" />
+    <!-- GOOGLE FONT LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <p>Miles<span>Design.</span></p>
+          <ul id="sideMenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <img src="images/moon.png" id="moon-icon" />
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Graphic Designer, <span>Social Media Manager</span> <br /> & Content Writer</p>
+            <h1>
+              Hi I'm <span>Olamilekan</span> <br />
+              Ajibola From Nigeria
+            </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/miles.jpeg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Miles</h1>
+            <p>
+              Miles is a versatile creative professional skilled in graphic
+              design, social media management, and content writing. With a
+              passion for blending aesthetics, engagement, and storytelling.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('experience')">
+                Experience
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Graphics Design</span><br />Adobe Photoshop <br />
+                  Adobe Illustrator <br />
+                  Canvas
+                </li>
+                <li>
+                  <span>Content Writing</span><br />Word Press <br />
+                  Story Blok
+                </li>
+                <li>
+                  <span>Social Media Management</span><br />All Social Media
+                  Platforms
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Graphics Design</span><br />
+                  I created a unique brand design for Werenode, a web3+emobility
+                  firm situated in France. Additionally, I produced all of the
+                  company's design materials. I worked for two years and four
+                  months.
+                </li>
+                <li>
+                  <span>Content Writing</span><br />
+                  I served as the lead author for Coinpaprika's Cryptocurrency
+                  News project. spearheaded, managed, and marketed the
+                  initiative. I worked for one year and three months.
+                </li>
+                <li>
+                  <span>Social Media Management</span><br />
+                  Managed all of Werenode's social media channels. Creating
+                  material that resonated with their target consumers, doing
+                  research and observation, and delivering insights and comments
+                  to the team. I worked for two years and four months.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Miles Services</h1>
+        <div class="services-list">
+          <div class="service-one">
+            <i class="fa-brands fa-figma"></i>
+            <h2>Graphics Design</h2>
+            <p>
+              Graphic designers breathe life into brands. We translate ideas and
+              messages into visuals that resonate with your audience. This can
+              involve crafting logos, designing marketing materials, building
+              user interfaces, and shaping the overall visual identity of your
+              company. From websites and social media graphics to presentations
+              and packaging, we tell your story through compelling imagery and
+              design.
+            </p>
+          </div>
+
+          <div class="service-two">
+            <i class="fa-solid fa-feather"></i>
+            <h2>Content Writing</h2>
+            <p>
+              Content writers are the strategic storytellers behind successful
+              brands. They translate complex ideas into clear, concise, and
+              engaging language that resonates with your target audience. Their
+              expertise spans crafting compelling website copy, social media
+              posts, and blog articles to developing informative product
+              descriptions and captivating email campaigns. Essentially, content
+              writers ensure your brand voice is heard loud and clear across all
+              communication channels.
+            </p>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-people-roof"></i>
+            <h2>Social Media Management</h2>
+            <p>
+              Social media managers act as the voice and visual architect of
+              your brand online. They craft engaging content, manage your
+              presence across platforms, and foster meaningful interactions with
+              your audience, ultimately driving brand awareness and growth.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <p class="sub-title">Contact Miles</p>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> Muheenadedoyin@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i> +234 70 38 57 7691</p>
+            <div class="social-icons">
+              <a href="https://x.com/ajibola3000?s=21&t=XD7LsMbFc5oaz4f-00bUwQ"
+                ><i class="fa-brands fa-square-twitter"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/miles123?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="images/my resume (1).pdf" download class="btn btn-2"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FONT AWESOME LINK -->
+    <script src="https://kit.fontawesome.com/acfce6f1e6.js" crossorigin="anonymous"></script>
+    <script src="miles.js"></script>
+  </body>
+</html>
